@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Account",
+  "type": "object",
+  "properties": {
+    "accountNumber": {
+      "type": "string"
+    },
+    "accountType": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "panNbr": {
+      "type": "string"
+    },
+    "overdraft_ind": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "accountNumber"
+  ]
+}

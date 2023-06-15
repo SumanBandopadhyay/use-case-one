@@ -1,0 +1,18 @@
+{
+  "title": "Account Attributes",
+  "type": "object",
+  "properties": {
+    "accountNumber": {
+      "type": "string",
+      "desc": "Account accNbr_Currency_Type unique to identify. E.g. hsdsd_CASE_USD "
+    },
+    "panNbr": {
+      "desc": "PAN Nbr",
+      "type": "string"
+    },
+    "overdraft_ind": {
+      "desc": "Boollean value",
+      "type": "boolean"
+    }
+  }
+}
